@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #87CEEB, #3498db); /* Gradient from light blue to dark blue */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #f0f0f0; /* Light grey background for the header */
+            padding: 15px 0;
+        }
+
+        nav {
+            text-align: left; /* Align the navigation bar to the left */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+        }
+
+        .container {
+            display:flexbox;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 800px;
+            margin: 20px 100px;
+            text-align: left;
+            flex-grow: 1;
+            padding: 10px;
+            
+        }
+
+        .container img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a 3D effect */
+            margin:0px 0px 0px 0px; /* Adjusted margin to create a gap between image and text */
+            /* padding: 100px; */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px; /* Adjust margin as needed */
+            text-align: left;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px; /* Adjust margin as needed */
+            text-align: left;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div>
+            <h1>Welcome to Our Website</h1>
+            <p>This is a brief and impressive description of what your website is about. You can add more details here to capture the visitor's attention.</p>
+        </div>
+        <img src="img.webp" alt="Image">
+    </div>
+
+    <footer>
+        &copy; 2023 Vedant Patil. All rights reserved.
+    </footer>
+
+    <script>
+        // You can add JavaScript code here if needed
+    </script>
+</body>
+</html>
